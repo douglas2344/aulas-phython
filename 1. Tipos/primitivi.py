@@ -1,6 +1,6 @@
 import os
 
-os.system(""clear");
+os.system("clear");
 
 nome = "Neymar"
 idade = 25

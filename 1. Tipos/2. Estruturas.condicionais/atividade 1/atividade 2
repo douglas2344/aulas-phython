@@ -1,0 +1,21 @@
+import os
+
+#limpar o terminal.
+os.system("cls || clear");
+
+#Solicitando dados para o usuario.
+int 
+float
+
+for (i =1; i <= 5; i++) {
+    print(f"Digite a %iª nota: ",i);
+    
+
+    soma = soma + nota;
+
+}
+
+printf("\n=== Exibindo resultado ===\n");
+printf("Soma: %.1f \n", soma);
+
+return 0;

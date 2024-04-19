@@ -1,6 +1,6 @@
 import os
 
-os.system("cls    ")
+os.system("cls || clear   ")
 
 nome: str = "Marta"
 idade: int = 20

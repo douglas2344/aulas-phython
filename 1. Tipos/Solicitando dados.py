@@ -1,7 +1,7 @@
 import os
 
 # limpa o terminal.
-os.system("cls// clear")
+os.system("cls ||m clear")
 
 # Solicitando  dados para o usuario.
 nome = input("Digite seu nome: ")
