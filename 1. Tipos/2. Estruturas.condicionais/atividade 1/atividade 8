@@ -1,0 +1,41 @@
+import os
+
+os.system("clear")
+
+nota : float = -1
+soma : float = 0
+quantidadesdeNotas = 0
+
+while true:
+
+    print("=== Menu ===")
+    print("S- inserir uma Nota")
+    print("P- Ver quantas notas foram inseridas")
+    print("N- calcular media aritmetica")
+
+    resposta = input("Deseja inserir uma nota:")
+    #resposta = resposta.upper()
+    if resposta == "S":
+        nota = float (input("\nDigite uma nota:"))
+        soma += nota
+        quantidadeNotas == 0
+        print("Nao foram inseridas notas. \n")
+    else:
+        print(f"Quantidade de notas inseridas:{quantidadesdeNotas } \n")
+    elif resposta == "N":
+    
+    if quantidadedeNotas == 0:
+     print("Nao foram inseridas notas. \n")
+
+    else:
+
+      break
+
+else: 
+ print("Opçao invalida...\n")
+
+media = soma / quantidadesdeNotas
+
+print(f"Media:{meida}")
+
+         
