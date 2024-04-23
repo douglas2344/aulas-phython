@@ -1,0 +1,17 @@
+valores = []
+
+#Loop para solicitar os 6 valores 
+
+while len (valores) <6:
+    valor = int(input("Insira um valor inteiro,positivo e par:"))
+
+if valor % 2 == 0 and valor > 0:
+    valores.append(valor)
+else:
+    print("Valor invalido.Insira um numero inteiro, positivo e par.")
+
+#Mostra os valores lidos na ordem inversa
+
+print("Valores lidos na ordem inversa:")
+for i in range(len (valores) -1,-1,-1):
+    print(valores[i])
