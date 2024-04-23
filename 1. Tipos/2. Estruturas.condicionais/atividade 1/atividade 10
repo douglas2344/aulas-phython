@@ -13,5 +13,5 @@ else:
 #Mostra os valores lidos na ordem inversa
 
 print("Valores lidos na ordem inversa:")
-for i in range(len (valores) -1,-1,-1):
+for i in range(len (valores)):
     print(valores[i])
