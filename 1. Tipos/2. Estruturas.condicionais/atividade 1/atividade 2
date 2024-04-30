@@ -19,3 +19,4 @@ printf("\n=== Exibindo resultado ===\n");
 printf("Soma: %.1f \n", soma);
 
 return 0;
+
