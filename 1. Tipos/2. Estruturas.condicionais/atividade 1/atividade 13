@@ -1,0 +1,26 @@
+class Livro:
+    def __init__(self, nome, autor, categoria, preco):
+        self.nome = nome
+        self.autor = autor
+        self.categoria = categoria
+        self.preco = preco
+
+livros = []
+
+for i in range(3):
+    print(f"Informe os dados do livro {i + 1}:")
+    nome = input("Nome: ")
+    autor = input("Autor: ")
+    categoria = input("Categoria: ")
+    preco = float(input("Preço: "))
+    livros.append(Livro(nome, autor, categoria, preco))
+
+print("\nInformações dos livros:")
+for i, livro in enumerate(livros, 1):
+    print(f"\nLivro {i}:")
+    print(f"Nome: {livro.nome}")
+    print(f"Autor: {livro.autor}")
+    print(f"Categoria: {livro.categoria}")
+    print(f"Preço: R${livro.preco:.2f}")
+
+
