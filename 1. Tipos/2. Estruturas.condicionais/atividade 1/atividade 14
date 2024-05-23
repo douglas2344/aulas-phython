@@ -1,0 +1,23 @@
+usuarios = []
+
+for i in range(3):
+    print(f"Informe os dados do usuário {i + 1}:")
+    nome = input("Nome: ")
+    data_nascimento = input("Data de Nascimento (DD/MM/AAAA): ")
+    rg = input("RG: ")
+    cpf = input("CPF: ")
+    usuario = {
+        "nome": nome,
+        "data_nascimento": data_nascimento,
+        "rg": rg,
+        "cpf": cpf
+    }
+    usuarios.append(usuario)
+
+print("\nInformações dos usuários:")
+for i, usuario in enumerate(usuarios, 1):
+    print(f"\nUsuário {i}:")
+    print(f"Nome: {usuario['nome']}")
+    print(f"Data de Nascimento: {usuario['data_nascimento']}")
+    print(f"RG: {usuario['rg']}")
+    print(f"CPF: {usuario['cpf']}")
